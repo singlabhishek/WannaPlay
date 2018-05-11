@@ -42,7 +42,7 @@ class BoardGame
                 board[row][col] = value;
         }
 
-        char getValue( int row, int col ) throws ArrayIndexOutOfBoundsException
+        char getValue( int row, int col )
         {
             return board[row][col];
         }
