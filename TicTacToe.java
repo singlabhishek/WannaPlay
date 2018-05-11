@@ -83,7 +83,8 @@
             return win;
         }
 
-        void declareWin( int numTurn ) {
+        void declareWin( int numTurn ) 
+        {
             System.out.println("Congratulations : " + player[(numTurn-1)%2].getName() + "\nYou finished the game in just " + numTurn + "turns.");
         }
 
